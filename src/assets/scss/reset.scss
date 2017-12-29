@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "lucida grande", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+	padding: 93px 0 65px 0;
+	-webkit-font-smoothing:antialiased;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none
+}
+img{
+	width: auto;
+	max-width: 100%;
+	border:none;
+}
+audio{
+	opacity: 0;
+	height: 0;
+}
+.ellipsis{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis
+}
+input{
+	outline: none;
+}
+.mint-cell-wrapper{
+    background-image: none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+.mint-cell-title{
+    padding-right: 10px;
+}
+.mint-cell{
+	min-height: 52px;
+	padding: 0 10px;
+}
+.mint-cell-title img{
+	margin-right: 10px;
+}

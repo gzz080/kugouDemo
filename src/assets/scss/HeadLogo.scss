@@ -1,0 +1,18 @@
+@import './mixin.scss';
+.head{
+	@include flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	justify-content: space-between;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 50px;
+	background: #2CA2F9;
+	img{
+		height: 100%;
+		max-width: 100%;
+	}
+}

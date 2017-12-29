@@ -1,0 +1,23 @@
+@import './mixin.scss';
+.headNav{
+	@include flex;
+	padding: 0 10px;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	background: #fff;
+	a{
+		flex: 1;
+		color: #000;
+		line-height: 43px;
+		text-align: center;
+		height: 43px;
+	}
+}
+.router-link-exact-active{
+	border-bottom: 3px solid #26a2ff;
+	color: #26a2ff !important;
+	line-height: 40px !important;
+}
